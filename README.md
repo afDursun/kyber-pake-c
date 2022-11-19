@@ -4,6 +4,7 @@
 #### Test
 
 ```c
+Testing all versions = make all
 Kyber512.PAKE = make pake_kyber512
 Kyber768.PAKE = make pake_kyber768
 Kyber1024.PAKE = make pake_kyber1024
