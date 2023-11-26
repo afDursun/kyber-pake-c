@@ -1,3 +1,5 @@
+# Kyber.PAKE
+To obtain the password-authenticated version of Kyber KEM, the one-phase PAK design approach, which provides explicit authentication and PFS, is followed. The KYBER.CCAKEM.KeyGen, KYBER.CCAKEM.Enc, and KYBER.CCAKEM.Dec structures, are used for key generation, encapsulation, and decapsulation. By using these functions, the idea of PAK is added to achieve password-based authentication. Thanks to the MLWE-based PAK and Kyber structures, two-way authentication is obtained. The proposed Kyber.PAKE contains four main sub-phases (C0, S0, C1, and S1) and three flows
 
 ## Usage
 
